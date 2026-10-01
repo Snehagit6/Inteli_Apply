@@ -1,0 +1,6 @@
+While GitHub stores your code and platforms like Streamlit Community Cloud can give you a quick public URL, GCP provides the underlying server infrastructure and control.Why Use GCP for a Streamlit App?Data Privacy and Security: Streamlit Community Cloud is public by default. GCP lets you place your app behind corporate single-sign-on (SSO), Virtual Private Clouds (VPCs), or internal company firewalls so only authorized employees can access it.
+
+Heavy Compute and Resources: Streamlit Community Cloud has strict limits on RAM and CPU. If your app trains machine learning models, processes massive datasets, or runs heavy Pandas/NumPy queries, you need dedicated GCP instances (like Cloud Run or Compute Engine) with custom RAM and GPU configurations.Database and Cloud Integration: If your app connects to secure internal databases, BigQuery, or Google Cloud Storage, hosting on GCP makes authentication seamless and secure via internal service accounts without exposing API keys.
+Commercial and Scaling Control: GCP automatically scales your application resources up or down based on traffic spikes, ensuring the app doesn't crash or go to sleep due to free-tier resource limits.
+
+Best alternative: Dockerize the app and deploy to GCP.

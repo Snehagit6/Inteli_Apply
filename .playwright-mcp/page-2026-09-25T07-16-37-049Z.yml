@@ -1,0 +1,70 @@
+- generic [active] [ref=f1e1]:
+  - generic [ref=f1e5]:
+    - link [ref=f1e6] [cursor=pointer]:
+      - /url: https://www.naukri.com
+      - img "Naukri.com" [ref=f1e7]
+    - navigation "Main navigation":
+      - list [ref=f1e8]:
+        - listitem [ref=f1e9]:
+          - link "Jobs" [ref=f1e10] [cursor=pointer]:
+            - /url: https://www.naukri.com
+        - listitem [ref=f1e12]:
+          - link "Companies" [ref=f1e13] [cursor=pointer]:
+            - /url: https://www.naukri.com/companies-hiring-in-india?src=gnbCompanies_homepage_srch
+        - listitem [ref=f1e15]:
+          - link "Services" [ref=f1e16] [cursor=pointer]:
+            - /url: https://www.naukri.com/naukri360
+    - generic [ref=f1e18] [cursor=pointer]:
+      - button "Search jobs here" [ref=f1e19]
+      - generic [ref=f1e20]: Search jobs here
+      - button [aria-hidden] [ref=f1e21]:
+        - generic [aria-hidden] [ref=f1e22]: 
+    - generic [ref=f1e23]:
+      - link "Login" [ref=f1e24] [cursor=pointer]:
+        - /url: https://login.naukri.com/nLogin/Login.php
+      - link "Register" [ref=f1e25] [cursor=pointer]:
+        - /url: https://www.naukri.com/registration/createAccount?othersrcp=22636
+    - list [ref=f1e26]:
+      - listitem [ref=f1e27]:
+        - button [ref=f1e28]:
+          - generic [ref=f1e29]:
+            - text: For employers
+            - generic [aria-hidden] [ref=f1e30]: 
+  - generic [ref=f1e37]:
+    - generic:
+      - generic [ref=f1e38]:
+        - strong [ref=f1e41]: New to Naukri?
+        - generic [ref=f1e42]:
+          - generic [ref=f1e44]:
+            - emphasis [ref=f1e45]: check
+            - text: One click apply using naukri profile.
+          - generic [ref=f1e47]:
+            - emphasis [ref=f1e48]: check
+            - text: Get relevant job recommendations.
+          - generic [ref=f1e50]:
+            - emphasis [ref=f1e51]: check
+            - text: Showcase profile to top companies and consultants.
+          - generic [ref=f1e53]:
+            - emphasis [ref=f1e54]: check
+            - text: Know application status on applied jobs.
+        - link "Register for Free" [ref=f1e57] [cursor=pointer]:
+          - /url: //www.naukri.com/registration/createAccount
+      - generic [ref=f1e62]:
+        - generic [ref=f1e63]:
+          - strong [ref=f1e66]: Login
+          - generic [ref=f1e67]:
+            - generic [ref=f1e69]:
+              - generic [ref=f1e70]: Email ID / Username
+              - textbox "Enter Email ID / Username" [ref=f1e71]
+            - generic [ref=f1e73]:
+              - generic [ref=f1e74]: Password
+              - textbox "Enter Password" [ref=f1e75]
+              - generic [ref=f1e76] [cursor=pointer]: Show
+              - link "Forgot Password?" [ref=f1e78] [cursor=pointer]:
+                - /url: /nlogin/forgotpassword?URL=https://www.naukri.com/mnjuser/homepage
+            - generic [ref=f1e80]:
+              - button "Login" [ref=f1e81] [cursor=pointer]
+              - button "Use OTP to Login" [ref=f1e82] [cursor=pointer]
+        - generic [ref=f1e84]:
+          - generic [ref=f1e85]: Or
+          - generic [ref=f1e87]: Sign in with Google
